@@ -121,14 +121,12 @@ def parse_arguments():
         help="Either relative or absolute path for the html file.",
     )
     parser.add_argument(
-        "-f",
-        "--file_name",
+        "-f",  "--file_name",
         type=str,
         help="Either relative or absolute path for the html file.",
     )
     parser.add_argument(
-        "-ff",
-        "--multiple_files",
+        "-ff", "--multiple_files",
         nargs='+',
         type=str,
         help="Either relative or absolute paths for the html files.",
